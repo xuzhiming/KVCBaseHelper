@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "xzm" => "xzm@umshz.com" }
   s.source       = { :git => "https://github.com/xuzhiming/KVCBaseHelper.git", :tag => s.version}
-  s.source_files = "KVCBaseHelper/CodableObject.{h,m}"
+  s.source_files = "KVCBaseHelper/*.{h,m}"
   s.requires_arc = true
-  s.platform     = :ios, '8.1'
-
+  s.platform     = :ios
 end
