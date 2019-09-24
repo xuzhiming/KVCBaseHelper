@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/xuzhiming/KVCBaseHelper.git", :tag => s.version}
   s.source_files = "KVCBaseHelper/*.{h,m}"
   s.requires_arc = true
-  s.platform     = :ios
+  s.platform     = :ios, '7.0'
 end
